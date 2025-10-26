@@ -38,12 +38,12 @@ nav {
 
 .logo_box img {
   height: 80px;
-  transition: all 0.2s linear; /* FIX: Hover se pehle transition add kiya */
+  transition: all 0.2s linear; 
 }
 
 .logo_box img:hover {
   transform: scale(1.1);
-  /* transition: all 0.2s linear; / / FIX: Ise base style mein rakha */
+    
 }
 
 .dot_icon {
@@ -56,9 +56,9 @@ nav {
 
 #tgl_btn {
   display: none;
-  background: transparent; /* FIX: Button ka background hataya */
-  border: none; /* FIX: Button ka border hataya */
-  cursor: pointer; /* FIX: Cursor add kiya */
+  background: transparent; 
+  border: none; 
+  cursor: pointer; 
 }
 
 .nav_links ul {
@@ -118,7 +118,7 @@ nav {
   .nav_links ul li {
     padding: 10px;
     color: white;
-    margin-bottom: 0; /* FIX: Desktop ka margin override kiya */
+    margin-bottom: 0; 
   }
 
   .nav_links button {
@@ -147,7 +147,7 @@ nav {
   background-color: black;
   height: 100%;
   width: 100%;
-  /* FIX: Mobile-first padding. Badi padding desktop media query mein daal di */
+  
   padding: 100px 20px 50px 20px; 
 }
 
@@ -164,7 +164,7 @@ nav {
   border-radius: 10px;
   box-shadow: rgba(175, 175, 243, 0.1) 0px 1px 0px, rgba(165, 165, 247, 0.1) 0px 8px 24px, rgba(164, 164, 241, 0.1) 0px 16px 48px;
 
-  /* FIX: Content wrap hoga agar screen choti ho */
+  
   flex-wrap: wrap; 
 }
 
@@ -174,7 +174,7 @@ nav {
   width: 100%; 
   height: 20rem;
   display: flex;
-  justify-content: center; /* FIX: Center kar diya default mein */
+  justify-content: center; 
   align-items: start;
   margin-top: 20px;
 }
@@ -233,8 +233,7 @@ nav {
 }
 
 .left_box {
-  height: auto; /* FIX: Auto height */
-  /* FIX: Flexible width di */
+  height: auto;
   max-width: 40rem; 
   width: 100%;
   display: flex;
@@ -242,7 +241,7 @@ nav {
   align-items: start;
   gap: 10px;
   margin-top: 20px;
-  min-height: 30rem; /* FIX: Minimum height rakhi */
+  min-height: 30rem; 
 }
 
 .name_box {
@@ -302,7 +301,7 @@ nav {
 @media screen and (max-width: 768px) {
 
   .about_box {
-    padding: 80px 10px 30px 10px; /* FIX: Top padding badhayi nav ke liye */
+    padding: 80px 10px 30px 10px; 
   }
 
   .about_sec {
@@ -356,10 +355,10 @@ nav {
     width: 100%; 
     display: flex;
     flex-direction: column;
-    align-items: center; /* FIX: Text center kiya */
+    align-items: center; 
     gap: 6px;
     margin-top: 5px;
-    min-height: auto; /* FIX: Min height reset ki */
+    min-height: auto; 
   }
 
   .name_box {
@@ -372,11 +371,10 @@ nav {
 
   .devtxt {
     margin: 10px;
-    /* FIX: Font size thoda bada kiya, 10px bahut chota tha */
     font-size: 14px; 
     font-weight: 400;
     color: rgb(208, 204, 204);
-    text-align: center; /* FIX: Text center kiya */
+    text-align: center; 
   }
 
   .oppertunuity {
@@ -389,8 +387,8 @@ nav {
     font-size: 15px;
     font-weight: 300;
     color: rgb(123, 150, 150);
-    padding: 5px 15px; /* FIX: Padding kam ki */
-    text-align: center; /* FIX: Text center kiya */
+    padding: 5px 15px; 
+    text-align: center; 
   }
 
   .explore_btn {
@@ -407,7 +405,7 @@ nav {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
   .about_box {
-     padding: 100px 20px 50px 20px; /* FIX: Padding adjust ki */
+     padding: 100px 20px 50px 20px;
   }
 
   .about_sec {
@@ -425,7 +423,7 @@ nav {
 
   .right_box {
     height: 22rem;
-    /* FIX: Width 100% ki */
+  
     width: 100%;
     max-width: 22rem; 
     display: flex;
@@ -455,8 +453,7 @@ nav {
   }
 
   .left_box {
-    height: auto; /* FIX: Height auto */
-    /* FIX: Width 100% ki */
+    height: auto; 
     width: 100%;
     max-width: 40rem;
     display: flex;
@@ -476,7 +473,7 @@ nav {
 
   .devtxt {
     margin: 12px;
-    font-size: 15px; /* FIX: Thoda bada kiya */
+    font-size: 15px; 
     text-align: center;
   }
 
@@ -487,7 +484,7 @@ nav {
   .about_txt p {
     font-size: 16px;
     padding: 5px 40px;
-    text-align: center; /* FIX: Center kiya */
+    text-align: center;
   }
 
   .explore_btn {
@@ -495,10 +492,8 @@ nav {
   }
 }
 
-/* FIX: Ye large desktop ke liye hai */
 @media screen and (min-width: 1025px) {
   .about_box {
-    /* FIX: Original padding yaha restore ki */
     padding: 50px 160px;
   }
 
@@ -512,12 +507,12 @@ nav {
     border-radius: 10px;
     background-color: black;
     box-shadow: 0 0 20px rgba(0, 191, 255, 0.3);
-    flex-wrap: nowrap; /* FIX: No wrap on desktop */
+    flex-wrap: nowrap; 
   }
 
   .right_box {
     height: 25rem;
-    width: 25rem; /* FIX: Width fix ki */
+    width: 25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -546,8 +541,8 @@ nav {
 
   .left_box {
     height: auto;
-    width: 40rem; /* FIX: Width fix ki */
-    align-items: flex-start; /* FIX: Text left align */
+    width: 40rem; 
+    align-items: flex-start; 
     gap: 10px;
     margin-top: 0;
   }
@@ -563,7 +558,7 @@ nav {
   .devtxt {
     margin: 15px 0;
     font-size: 14px;
-    text-align: left; /* FIX: Text left align */
+    text-align: left;
   }
 
   .oppertunuity {
@@ -573,13 +568,12 @@ nav {
   .about_txt p {
     font-size: 17px;
     padding: 5px 0;
-    text-align: left; /* FIX: Text left align */
+    text-align: left; 
   }
 }
 
 
 .skills_txt {
-  /* FIX: Mobile-first padding */
   padding: 5px 20px; 
   text-align: center;
 }
@@ -743,7 +737,6 @@ nav {
   }
 }
 
-/* FIX: Large desktop padding for skills */
 @media screen and (min-width: 1025px) {
   .skills_txt {
     padding: 5px 160px;
@@ -779,7 +772,7 @@ nav {
   text-align: center;
 }
 
-/* FIX: Large desktop padding for feature text */
+
 @media screen and (min-width: 1025px) {
   .feature_txt p {
     padding: 0 82px;
@@ -800,7 +793,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #00bfff;
+  border-top: 1px solid #00bfff;
+  border-bottom: 1px solid #00bfff;
   background-color: #02182B;
 }
 
@@ -824,12 +818,10 @@ nav {
   margin: 0 auto;
   transition: all 0.6s ease;
   border: 1px solid #00bfff;
-  /* FIX: Ye user-select readability ke liye accha hai */
   user-select: none; 
 }
 
 .swiper-wrapper {
-  /* FIX: Height 100% kardi taaki mobile & desktop dono par chale */
   height: 100%; 
   padding: 30px;
 }
@@ -872,7 +864,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  width: 100%; /* FIX: Full width di */
+  width: 100%; 
 }
 
 .content_box {
@@ -880,8 +872,8 @@ nav {
   flex-direction: column;
   gap: 10px;
   margin-top: 10px;
-  width: 100%; /* FIX: Full width di */
-  padding: 0 15px; /* FIX: Padding di */
+  width: 100%; 
+  padding: 0 15px; 
 }
 
 .content_box h2 {
@@ -893,14 +885,14 @@ nav {
 .content_box p {
   font-size: 15px;
   text-align: left;
-  /* padding-left: 10px; / / FIX: Ise content_box mein daal diya */
+   padding-left: 10px; 
   color: #7eace0;
 }
 
 .lang_box {
-  /* padding-right: 130px; / / FIX: Ye alignment bigaad raha tha */
-  width: 100%; /* FIX: Full width di */
-  padding: 0 15px; /* FIX: Padding di */
+padding-right: 130px;
+  width: 100%; 
+  padding: 0 15px;
   display: flex;
   justify-content: start;
   align-items: start;
@@ -945,7 +937,7 @@ nav {
 
 .main_visitbtn {
   margin-top: 30px;
-  /* padding: 0 90px; / / FIX: Ye alignment bigaad raha tha */
+  
   bottom: 0;
 }
 
@@ -971,7 +963,7 @@ nav {
   }
 
   .swiper-slide {
-    /* FIX: Jaisa aapne kaha, mobile par thoda chota kiya */
+   
     height: 350px;
     width: 260px; 
     border-radius: 20px;
@@ -983,29 +975,29 @@ nav {
   }
 
   .all_cont_proj {
-    gap: 15px; /* FIX: Gap kam kiya */
+    gap: 15px; 
   }
 
   .content_box {
-    padding: 0 10px; /* FIX: Padding adjust ki */
+    padding: 0 10px; 
     gap: 5px;
-    align-items: center; /* FIX: Content center kiya */
+    align-items: center; 
   }
 
   .content_box h2 {
-    text-align: center; /* FIX: Center */
+    text-align: center;
     font-size: 20px;
   }
 
   .content_box p {
     font-size: 12px;
-    text-align: center; /* FIX: Center */
+    text-align: center; 
     padding-left: 0;
   }
 
   .lang_box {
-    padding-right: 0; /* FIX: Padding reset ki */
-    justify-content: center; /* FIX: Center */
+    padding-right: 0; 
+    justify-content: center; 
     gap: 10px;
     padding: 0 10px;
   }
@@ -1020,12 +1012,6 @@ nav {
   display: none;
 
 }
-
-
-
-
-
-
 
   .swiper-slide:hover .button_visit {
     opacity: 1;
@@ -1053,7 +1039,7 @@ nav {
   }
 
   .swiper-slide {
-    height: 380px; /* Tablet par original size rakha */
+    height: 380px; 
     width: 280px;
     border-radius: 20px;
     border: 1px solid #00bfff;
@@ -1082,14 +1068,13 @@ nav {
 
   .lang_box p {
     font-size: 10px;
-    /* FIX: TYPO THEEK KIYA - "borde" ko "border" kiya */
+    
     border: 1px solid #00bfff;
     border-radius: 20px;
     padding: 6px 12px;
     background-color: #425083;
   }
   
-  /* FIX: Tablet par bhi button visible rakha */
   .button_visit {
      display: none;
   }
