@@ -59,6 +59,10 @@ nav {
   background: transparent; 
   border: none; 
   cursor: pointer; 
+
+}
+#tgl_btn img{
+  height: 30px;
 }
 
 .nav_links ul {
@@ -954,18 +958,19 @@ padding-right: 130px;
   
   .main_proj_cont {
     height: 70vh; 
-    min-height: 450px; 
+    min-height: 550px; 
+    width: 100%;
   }
 
   .swiper {
     width: 100%;
-    height: 90%;
+    height: 100%;
   }
 
   .swiper-slide {
    
     height: 350px;
-    width: 260px; 
+    width: 60px; 
     border-radius: 20px;
     border: 1px solid #00bfff;
   }
@@ -980,18 +985,20 @@ padding-right: 130px;
 
   .content_box {
     padding: 0 10px; 
-    gap: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
     align-items: center; 
   }
 
-  .content_box h2 {
-    text-align: center;
+  .content_box h2{
+    text-align: left;
     font-size: 20px;
   }
 
   .content_box p {
     font-size: 12px;
-    text-align: center; 
+    text-align: left; 
     padding-left: 0;
   }
 
