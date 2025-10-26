@@ -89,7 +89,7 @@ nav {
 /* // media queary  ka code yaha hoga ok  */
 
 
-@media screen and (max-width : 880px) {
+@media screen and (max-width : 768px) {
 
   .nav_links {
     display: flex;
