@@ -85,6 +85,7 @@ nav {
 
 @media screen and (max-width : 768px) {
 
+
   .nav_links {
     display: flex;
     justify-content: center;
@@ -96,25 +97,20 @@ nav {
     position: absolute;
     top: 70px;
     left: 0;
-    right: 0;
     flex-direction: column;
     text-align: center;
-    background: #000;
-    background-color: rgba(164, 164, 241, 0.1);
-    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
     overflow: hidden;
-    backdrop-filter: blur(35px);
-
-    /* FIX: Mobile menu ko default mein hide kiya */
-    height: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    transition: all 0.5s ease-in-out; /* FIX: Transition ko smooth kiya */
+    gap: 20px;
+    transition: all 0.8s;
+    backdrop-filter: blur(30px);;
   }
+   
+    
 
-  /* FIX: Ye class JS se toggle hogi */
   .nav_links ul.nav-active {
-    height: 280px; /* Aap is height ko content ke hisaab se adjust kar sakte hain */
+    height: 280px; 
     padding: 10px 0;
   }
 
@@ -141,6 +137,8 @@ nav {
   #tgl_btn {
     display: block;
   }
+  
+  
 
 }
 
@@ -957,14 +955,14 @@ nav {
 
 @media screen and (max-width:768px) {
   .project_sec {
-    /* FIX: Mobile par height auto kar di */
+    
     height: auto; 
     padding-bottom: 50px;
   }
   
   .main_proj_cont {
-    height: 70vh; /* FIX: Height thodi kam ki */
-    min-height: 450px; /* FIX: Minimum height rakhi */
+    height: 70vh; 
+    min-height: 450px; 
   }
 
   .swiper {
@@ -1017,29 +1015,23 @@ nav {
     padding: 6px 12px;
   }
 
-  .main_visitbtn {
-    margin-top: 15px; /* FIX: Margin kam kiya */
-    padding: 0;
-  }
-  
-  .button_visit {
-    /* FIX: Button ko mobile par hamesha visible rakha */
-    opacity: 1; 
-    padding: 3px 6px;
-  }
 
-  .button_visit a {
-    font-size: 15px;
-  }
+.main_visitbtn{
+  display: none;
 
-  .button_visit img {
-    height: 25px;
-  }
+}
 
-  /* FIX: Mobile par hover effect (opacity change) ki zaroorat nahi */
+
+
+
+
+
+
   .swiper-slide:hover .button_visit {
     opacity: 1;
   }
+
+
 }
 
 /* tablet ke liye responsive */
@@ -1099,6 +1091,6 @@ nav {
   
   /* FIX: Tablet par bhi button visible rakha */
   .button_visit {
-     opacity: 1;
+     display: none;
   }
 }
