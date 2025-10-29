@@ -1113,3 +1113,293 @@ nav {
     display: none;
   }
 }
+
+
+
+
+.Certification {
+  height: 100vh;
+  margin-top: 200px;
+  color: white;
+}
+
+.cer_edu {
+  height: 100%;
+  width: 100%;
+}
+
+.cer_edu .cer_edu_txt {
+  text-align: center;
+
+}
+
+.cer_edu_txt h1 {
+  font-size: 40px;
+  color: #3572EF;
+}
+
+.cer_edu_txt span {
+  font-size: 39px;
+  color: #00bfff;
+
+}
+
+.cer_edu_txt p {
+  font-size: 18px;
+  color: rgb(208, 204, 204);
+  margin-top: 5px;
+}
+
+.cer_edu .card_sec {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cer_edu .card_sec .card_cer {
+  height: 200px;
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(50px);
+  color: #00bfff;
+  text-align: left;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #00bfff;
+  margin-top: 20px;
+  box-shadow: 0 0 5px 2px #00bfff;
+
+}
+
+.card_cer .h2 h2 {
+  font-size: 25px;
+  color: #3572EF;
+}
+
+.card_cer .p_tgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.card_cer .p_tgs h2 {
+  font-size: 22px;
+  color: #00bfff;
+  font-weight: 300;
+}
+
+.card_cer .p_tgs p {
+  font-size: 19px;
+  color: #3188a5;
+}
+
+.card_cer .dates {
+  margin-top: 8px;
+  font-size: 20px;
+  color: #5e5b5b;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+
+  .Certification {
+    height: 100vh;
+    margin-top: 500px;
+    color: white;
+  }
+
+  .cer_edu {
+    height: 100%;
+    width: 100%;
+  }
+
+  .cer_edu .cer_edu_txt {
+    text-align: center;
+
+  }
+
+  .cer_edu_txt h1 {
+    font-size: 30px;
+    color: #3572EF;
+  }
+
+  .cer_edu_txt span {
+    font-size: 30px;
+    color: #00bfff;
+
+  }
+
+  .cer_edu_txt p {
+    font-size: 17px;
+    color: rgb(208, 204, 204);
+    margin-top: 8px;
+    padding: 0 30px;
+  }
+
+  .cer_edu .card_sec {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cer_edu .card_sec .card_cer {
+    height: 200px;
+    /* width: 450px; */
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
+    color: #00bfff;
+    text-align: left;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #00bfff;
+    margin-top: 20px;
+    box-shadow: 0 0 5px 2px #00bfff;
+
+  }
+
+  .card_cer .h2 h2 {
+    font-size: 25px;
+    color: #3572EF;
+  }
+
+  .card_cer .p_tgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 6px;
+    margin-top: 12px;
+  }
+
+  .card_cer .p_tgs h2 {
+    font-size: 22px;
+    color: #00bfff;
+    font-weight: 300;
+  }
+
+  .card_cer .p_tgs p {
+    font-size: 18px;
+    color: #3188a5;
+  }
+
+  .card_cer .dates {
+    margin-top: 8px;
+    font-size: 20px;
+    color: #5e5b5b;
+  }
+
+
+
+
+}
+
+/* tablet ke liye responsive */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+
+  
+
+  .Certification {
+    height: 100vh;
+    margin-top: 60px;
+    color: white;
+  }
+
+  .cer_edu {
+    height: 100%;
+    width: 100%;
+  }
+
+  .cer_edu .cer_edu_txt {
+    text-align: center;
+
+  }
+
+  .cer_edu_txt h1 {
+    font-size: 40px;
+    color: #3572EF;
+  }
+
+  .cer_edu_txt span {
+    font-size: 40px;
+    color: #00bfff;
+
+  }
+
+  .cer_edu_txt p {
+    font-size: 17px;
+    color: rgb(208, 204, 204);
+    margin-top: 8px;
+    padding: 0 30px;
+  }
+
+  .cer_edu .card_sec {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cer_edu .card_sec .card_cer {
+    height: 200px;
+    width: 690px;
+    /* width: auto; */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
+    color: #00bfff;
+    text-align: left;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #00bfff;
+    margin-top: 20px;
+    box-shadow: 0 0 5px 2px #00bfff;
+
+  }
+
+  .card_cer .h2 h2 {
+    font-size: 25px;
+    color: #3572EF;
+  }
+
+  .card_cer .p_tgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 6px;
+    margin-top: 12px;
+  }
+
+  .card_cer .p_tgs h2 {
+    font-size: 22px;
+    color: #00bfff;
+    font-weight: 300;
+  }
+
+  .card_cer .p_tgs p {
+    font-size: 18px;
+    color: #3188a5;
+  }
+
+  .card_cer .dates {
+    margin-top: 8px;
+    font-size: 20px;
+    color: #5e5b5b;
+  }
+
+
+
+
+}
