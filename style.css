@@ -153,7 +153,7 @@ nav {
   background-color: black;
   height: 100%;
   width: 100%;
-
+  margin-top: 50px;
   padding: 100px 20px 50px 20px;
 }
 
@@ -997,7 +997,7 @@ nav {
   .swiper-slide {
 
     height: 350px;
-    width: 60px;
+    width: 100%;
     border-radius: 20px;
     border: 1px solid #00bfff;
   }
@@ -1253,8 +1253,8 @@ nav {
 
   .cer_edu .card_sec .card_cer {
     height: 200px;
-    /* width: 450px; */
-    width: auto;
+    width: 360px;
+    /* width: auto; */
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(50px);
     color: #00bfff;
@@ -1282,7 +1282,7 @@ nav {
   }
 
   .card_cer .p_tgs h2 {
-    font-size: 22px;
+    font-size: 19px;
     color: #00bfff;
     font-weight: 300;
   }
