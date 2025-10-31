@@ -1410,16 +1410,17 @@ nav {
 .certificate_card .imge_box {
   border: 1px solid #00bfff;
   height: 310px;
-  width: 450px;
+  width: 430px;
   background: rgba(206, 203, 203, 0.1);
   border-radius: 15px;
   transition: all 0.5s;
+  
 }
 
 .imge_box figure img {
-  padding-left:150px;
+  padding-left:140px;
   padding-top: 5px;
-  height: 150px;
+  height: 130px;
   
 }
 
@@ -1436,10 +1437,11 @@ nav {
 }
 
 .imge_box figcaption {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 800;
   padding-left: 5px;
   color:#3ABEF9;
+  padding: 8px;
 }
 
 .imge_box .dates {
@@ -1453,13 +1455,13 @@ nav {
 
 .imge_box .dates h2 {
 
-  font-size: 19px;
+  font-size: 15px;
   font-weight: 100;
   color: rgb(175, 167, 167);
 }
 
 .imge_box .dates p {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 100;
   color: rgb(98, 96, 96);
 }
@@ -1469,7 +1471,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .imge_box .btn a {
@@ -1478,7 +1480,7 @@ nav {
   background-color: #00bfff;
   transition: all 0.5s;
   border: 1px solid #00bfff;
-  border-radius: 7px;
+  border-radius: 2px;
 }
 
 
